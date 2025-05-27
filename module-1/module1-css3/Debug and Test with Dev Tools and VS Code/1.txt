@@ -1,0 +1,27 @@
+Step 1: Use Chrome DevTools Device Toolbar
+Open your webpage in Google Chrome.
+Right-click anywhere on the page and select Inspect or press Ctrl + Shift + I (Windows/Linux) or Cmd + Option + I (Mac) to open DevTools.
+Click the Toggle device toolbar button (phone/tablet icon) in the top-left corner of DevTools or press Ctrl + Shift + M (Windows/Linux) or Cmd + Shift + M (Mac).
+At the top of the page, you’ll see a responsive viewport where you can:
+Select preset devices like iPhone, iPad, Pixel, etc.
+Manually resize the viewport by dragging edges or entering width/height.
+Rotate the viewport between portrait and landscape.
+Observe how your layout responds to different screen sizes and orientations.
+
+Step 2: Inspect and Edit Styles Live
+While in DevTools, select the Elements tab.
+Hover over HTML elements in the Elements panel or click them on the page preview to inspect.
+On the right side, under Styles, you’ll see all CSS rules applied to that element.
+You can:
+Toggle individual CSS properties on/off by checking/unchecking.
+Edit values live by clicking them (e.g., change font-size: 18px to 14px) and seeing immediate effects.
+Add new CSS properties temporarily to test fixes.
+This lets you quickly debug layout issues like navigation links not stacking or images not resizing properly.
+
+Step 3: Check Network Tab for External CSS Loading
+Open the Network tab in DevTools.
+Reload the page (F5 or Ctrl + R).
+Look for your external CSS file(s) in the list (usually ending with .css).
+Check the Status column to ensure it’s 200 (OK).
+If the CSS file is missing or shows 404, it means the stylesheet is not loading correctly — double-check the link tag in your HTML.
+
